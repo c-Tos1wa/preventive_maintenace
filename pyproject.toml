@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "machine-failure"
+version = "0.1.0"
+description = ""
+authors = ["c-Tos1wa <cristoshiwassaki@gmail.com>"]
+readme = "README.md"
+packages = [{include = "machine_failure"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.5.3"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
